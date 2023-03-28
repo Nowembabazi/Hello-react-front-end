@@ -1,119 +1,141 @@
-<a name="readme-top"></a>
+<div align="center">
+  <h3><b>RAILS-FRONT-END README</b></h3>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Hello-React-Front-End ](#-hello-react-front-end-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [💻 Back-end Repository ](#-back-end-repository-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello-React-Front-End <a name="about-project"></a>
+# 📖 RAILS-REACT <a name="about-project"></a>
 
-**Hello_React_Front_End** is a learning react app where with the help of `reduxjs/toolkit` data will get from an API implemented on rails.
-
+This is a simple React application that fetches data from an API endpoint and displays the data. It is developed using React and Redux (State management).
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This project is made using technologies as follows:
-
 <details>
-  <summary>Client</summary>
+  <summary>State Management</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 </details>
 
-<!-- Features -->
+<details>
+  <summary>Front End</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>None</li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **On refresh page get a random greeting**
+> Describe between 1-3 key features of the application.
+
+- Fetch data from an API endpoint
+- Store the data in a store
+- Display the data in a component
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+<!--
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## 💻 Getting Started <a name="getting-started"></a>
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+-->
+
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
-
-Example command:
-
-```
- npm i
- npm start
-```
-
+ - NodeJS
+ - Node Package Manager (NPM)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-Example command:
-
-```
-  git clone https://github.com/nowembabazi/hello-react-front-end.git
-  cd hello-react-front-end
+```sh
+  git clone https://github.com/nowembababzi/hello-react-front-end.git
 ```
 
 ### Install
 
-Install this project with:
+Install this project and it's dependencies:
 
-```
-  npm i
+```sh
+  cd hello-front-end
+  npm install
 ```
 
 ### Usage
 
-To build the project, execute the following command:
+To run the project, execute the following command:
 
-
-Example command:
-
-```
-  npm run build
+```sh
+  npm start
 ```
 
+<!--
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  gem install rspec
+  rspec spec
+```
+
+<!--
 ### Deployment
 
 You can deploy this project using:
 
-
+<!--
 Example:
 
-```
-Netlify
-Gh-Pages
-Vercel
+```sh
 
 ```
-
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,11 +143,13 @@ Vercel
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Tashobya Israel**
+> Mention all of the collaborators of this project.
 
-- GitHub: [@githubhandle](https://github.com/nowembabazi)
-- Twitter: [@twitterhandle](https://twitter.com/NowembababziN)
-- Linkedin: [@linkedinhandle](https://www.linkedin.com/in/nowembababzi-nickson)
+👤 **Author1**
+
+- GitHub: [@nowembabazi](https://github.com/nowembabazi)
+- Twitter: [@nowembabazi](https://twitter.com/NowembabaziN)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/nowembabazi-nickson)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,25 +157,13 @@ Vercel
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **SignUp and Login**
-- [ ] **Authentication and Authorization**
-- [ ] **Pages**
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] A better UI
+- [ ] A compelete application
+- [ ] More functionality
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- BACK-END REPOSITORY -->
-## 💻 Back-end Repository <a name="backend-repo"></a>
-
-- [Click Here](https://github.com/Nowembabazi/hello-rails-back-end)
-
-- Clone this repository to your desired folder:
-
-- Example command:
-
-  ```
-    git clone https://github.com/Nowembabazi/hello-rails-backend.git
-    cd hello-rails-backend
-  ```
 
 <!-- CONTRIBUTING -->
 
@@ -167,9 +179,43 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Please give star
+> Write a message to encourage readers to support your project
+
+If you like this project, please give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p># hello-react-frontend
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank Microverse for their continued support. They've provided us with the reading material that have helped us to create this application.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **Can I reuse this code?**
+
+  - Yes sure, feel free.
+
+- **Are contributions welcome?**
+
+  - Yes please. Contact me at `nowembabazin8@.com` and I will be happy to add you as a contributor.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
